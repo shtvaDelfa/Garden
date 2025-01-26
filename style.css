@@ -1,0 +1,59 @@
+:root{
+    --font-libre: "Libre Baskerville", serif;
+}
+
+
+*{
+    font-family: "Roboto", serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    column-gap: 187px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.logo__block {}
+
+.logo__title {
+        font-weight: 500;
+        font-size: 23px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #343d33;
+}
+
+.logo__text {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.01em;
+        color: #333;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav__item {
+    list-style: none;
+}
+/* 
+.nav-item:last-child{
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+} */
+
+.nav__item_border{
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+}
